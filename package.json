@@ -1,0 +1,15 @@
+{
+  "name": "missing-lcp",
+  "version": "0.1.0",
+  "description": "Find pages where Chrome records no Largest Contentful Paint, and see which first-screen elements it skipped and why.",
+  "type": "module",
+  "bin": { "missing-lcp": "./missing-lcp.mjs" },
+  "files": ["missing-lcp.mjs", "README.md", "LICENSE"],
+  "scripts": { "test": "node test/test.mjs" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "playwright": "^1.48.0" },
+  "keywords": ["lcp", "largest-contentful-paint", "core-web-vitals", "lighthouse", "no-lcp", "performance", "seo", "playwright"],
+  "author": "Black Label Tec (https://blacklabeltec.com)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/mthburnsbarber-web/missing-lcp.git" }
+}
